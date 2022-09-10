@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,300&family=Pacifico&display=swap');
+
 *{
     padding: 0%;
     margin: 0%;
@@ -22,10 +25,12 @@
 
 ul{
     display: flex;
+    flex-wrap: wrap;
 }
 li a {
     text-decoration: none;
     color: white;
+    
 
 }
 
@@ -41,6 +46,14 @@ a:hover{
 
 li.active a{
     color: rgb(248, 31, 7);
+}
+
+ul li::before{
+    content: '';
+    height: 2px;
+    width: 2px;
+    background-color: #d076bf;
+    top: 20px;
 }
 
 .bg-img{
@@ -68,18 +81,74 @@ padding-right: 100px;
 }
 
 .icon-container i{
-    color: rgb(248, 31, 7);
+    color: #fff;
     padding: 20px;
 
 }
 
+.fa-facebook:hover{
+    color: rgb(56, 14, 239);
+}
+
+.fa-facebook-messenger:hover{
+    color: rgb(9, 150, 244);
+}
+
+.fa-whatsapp:hover{
+    color: rgb(12, 237, 15);
+}
+
+.fa-instagram:hover{
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+  -webkit-background-clip: text;
+          /* Also define standard property for compatibility */
+          background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.fa-twitter:hover{
+    color: #c82323;
+}
+
+
 .h1{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    text-align: center;
     padding-bottom: 20px;
     color: #d076bf;
     font-size: 30px;
+    font-family: 'Pacifico', cursive;
+}
+.h1{
+    position: relative;
+
+}
+
+.h1::after{
+    content: '';
+    height: 3px;
+    width: 0px;
+    background: rgb(238, 95, 95);
+    top: 5px;
+    right: 143px;;
+    position: absolute;
+    transition: 0.5s linear;
+}
+.h1::before{
+    content: '';
+    height: 3px;
+    width: 0px;
+    background: rgb(238, 95, 95);
+    top: 92px;
+    left: 143px;
+    position: absolute;
+    transition: 0.5s linear;
+}
+
+.h1:hover::after{
+    width: 345px;
+}
+.h1:hover::before{
+width: 345px;
 }
 
 .para{
@@ -87,6 +156,7 @@ padding-right: 100px;
     font-size: 25px;
     width: 545px;
     padding-left: 85px;
+    font-family: 'Josefin Sans', sans-serif;
 
 }
 
@@ -94,6 +164,7 @@ padding-right: 100px;
     display: flex;
     justify-content: center;
     padding-top: 10px;
+    
 }
 
 .btn-container span a {
@@ -104,11 +175,13 @@ padding-right: 100px;
     border-radius: 20px;
     padding: 10px 30px;
     margin-right: 25px;
+    transition: 00.5s;
 
 }
 
 .btn-container button:hover{
     background-color: #d076bf;
+    
 
 }
 
@@ -119,7 +192,9 @@ padding-right: 100px;
 
 }
 
-.right-home img{
+
+
+.my-photo img{
     width: 381px;
     box-shadow: 11px 14px 16px #04040412;
 }

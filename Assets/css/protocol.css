@@ -46,7 +46,79 @@ li.active a{
 .bg-img{
 
     background-image: url(../images/home-bg-1.jpg);
-    height: 91vh;
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+.h2{
+    color: #d076bf;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+
+
+.steps {
+    color: #fff;
+    padding-top: 50px;
+    font-size: 25px;
+    width: 50%;
+}
+
+/* .step-2{
+    color: #fff;
+    padding-top: 50px;
+    font-size: 25px;
+}
+
+.step-3{
+    color: #fff;
+    padding-top: 50px;
+    font-size: 25px;
+}
+
+.step-4{
+    color: #fff;
+    padding-top: 50px;
+    font-size: 25px;
+}
+
+.step-5{
+    color: #fff;
+    padding-top: 50px;
+    font-size: 25px;
+}
+
+.step-6{
+    color: #fff;
+    padding-top: 50px;
+    font-size: 25px;
+}
+
+.step-7{
+    color: #fff;
+    padding-top: 50px;
+    font-size: 25px;
+}
+
+.step-8{
+    color: #fff;
+    padding-top: 50px;
+    font-size: 25px;
+} */
+
+.dot p:hover{
+    color:rgb(250, 195, 99);
+}
+
+.dot p b{
+    color: rgb(99, 192, 250);
+}
+
+.dot p b:hover{
+    color: #d076bf;
+}
+

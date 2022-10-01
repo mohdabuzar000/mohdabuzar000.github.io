@@ -1,0 +1,293 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.app-logo img{
+    height: 100px;
+    width: 100px;
+}
+
+.header-right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+nav ul{
+    display: flex;
+}
+
+nav ul li{
+    list-style-type: none;
+    padding: 20px;
+}
+
+.left{
+    padding-right: 30px;
+}
+
+.right{
+    display: flex;
+    width: 235px;
+    border: 1px solid;
+}
+/* .search-bar{
+    position: relative;
+} */
+
+.search-bar input{
+    border: none;
+    /* position: absolute; */
+}
+
+.bucket-logo img{
+    height: 25px;
+    width: 25px;
+    border-left: 1px solid;
+}
+
+.fast{
+    padding-top: 80px;
+}
+
+.bike-delivery{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: brown;
+    border-radius: 50px;
+    width: 180px;
+    margin-top: 30px;
+    padding: 10px 0;
+    
+}
+
+
+.del-boy-logo img{
+
+    width: 50px;
+    /* padding-left: 30px; */
+    padding: 0 12px ;
+}
+
+.heading{
+   display: flex;
+   flex-direction: column;
+   font-size: 90px;
+   line-height: 100px;
+    padding-top: 30px;
+
+}
+
+.orange{
+    color: rgb(235, 175, 64);
+}
+
+.grocen{
+    width: 600px;
+    padding-top: 30px;
+}
+
+.order{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.order-now button{
+    width: 140px;
+    height: 50px;
+    border-radius: 10px;
+    background-color:rgb(248, 137, 10);
+    color: #fff;
+    border: none;
+
+}
+
+.order-process button {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 2px 2px 8px 3px rgb(103, 100, 100);
+}
+.order-process button span{
+clip-path: polygon(100% 46%, 0 0, 0 100%);
+width: 20px;
+height: 20px;
+display: inline-block;
+background-color: rgb(235, 175, 64);
+}
+
+.fast-food-item{
+    row-gap: 100px;
+}
+.card{
+    height: 204px;
+    border: 1px solid;
+    border-radius: 30px;
+    position:relative;
+    filter: drop-shadow(0px 0px 1px rgb(51, 49, 49));
+
+}
+
+.food-detail{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    bottom: 46px;
+}
+
+.food-item-img img{
+    filter: drop-shadow(7px 2px 5px rgb(51, 49, 49));
+    width: 150px;
+    height: 150px;
+}
+
+.food-name{
+    
+}
+
+.type{
+    position: relative;
+    bottom: 4px;
+}
+
+.price{
+    position: relative;
+    bottom: 20px;
+}
+
+.btns{
+
+    position: relative;
+    bottom: 13px;
+    display: flex;
+    gap: 30px;
+}
+
+.btns button{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: none;
+}
+
+.forward{
+    background-color: rgb(1, 4, 37);
+}
+
+.fa-arrow-right{
+    color: #fff;
+}
+
+.backward{
+    filter: drop-shadow(0px 0px 2px rgb(53, 48, 48));
+}
+
+
+.doller{
+    color: red;
+    font-weight: bolder;
+}
+
+.number{
+    font-weight: bold;
+}
+
+.fruit-row{
+    padding-top: 200px;
+}
+
+
+.fruit-card{
+    width: 300px;
+    filter: drop-shadow(0px 0px 1px rgb(51, 49, 49));
+   
+
+}
+
+.fruit{
+    display: flex;
+    /* justify-content: space-between; */
+    /* padding: 18px 25px; */
+}
+
+.fruit-img
+{
+    transform: translate(-50px, -65px);
+    filter: drop-shadow(7px 2px 5px rgb(51, 49, 49));
+    /* height: 170px; */
+    width: 185px;
+}
+
+.fruit-detail{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.troly-icon{
+    width: 40px;
+    height: 40px;
+    background-color: red;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* margin-top: 20px;
+    margin-left: 40px; */
+}
+
+.fa-cart-shopping{
+    color: #fff;
+}
+
+.name{
+    /* margin-top: 20px;
+    margin-left: -50px; */
+}
+
+.rate{
+    /* margin-top: 20px;
+    margin-left: -90px; */
+}
+
+.fa-star{
+    color: rgb(248, 212, 52);
+}
+
+.add-btn-price{
+    /* margin-left: -90px; */
+}
+
+.fruit-price{
+    font-size: 25px;
+}
+
+.add{
+    width: 30px;
+    height: 30px;
+    border-radius: 5px;
+    background-color: #000;
+    /* margin-left: 69px; */
+}
+
+.fa-plus{
+    color: #fff;
+}
